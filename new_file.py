@@ -28,7 +28,7 @@ driver.find_element_by_xpath("//input[@id='passwd']").send_keys("1234567")
 # Find "Sign in" button and click
 driver.find_element_by_xpath('//body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]').click()
 # # driver.quit()
-sleep(5)
+
 
 driver.close()
 
